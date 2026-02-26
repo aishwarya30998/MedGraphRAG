@@ -6,17 +6,7 @@ Answer clinical questions by traversing a medical knowledge graph of diseases, s
 > ⚠️ **Disclaimer:** This project is for educational and research purposes only.
 > It is NOT intended for real clinical decision-making. Always consult a licensed clinician.
 
----
 
-## Example Queries
-
-- *"What are the drug interactions between warfarin and aspirin?"*
-- *"What diseases are associated with chest pain and shortness of breath?"*
-- *"What is the treatment protocol for Type 2 Diabetes?"*
-- *"What genes are associated with hypertension?"*
-- *"What diseases commonly co-occur with Type 2 Diabetes?"*
-
----
 
 ## Architecture
 
@@ -234,17 +224,7 @@ pytest -m "not llm" -v
 | `tests/test_pipeline.py` | `integration` + `llm` | Full end-to-end pipeline: correct answer content, top_k behavior |
 | `tests/test_api.py` | `integration` + `llm` | FastAPI endpoints — status codes, response structure, validation |
 
-### Example Output
 
-```
-tests/test_synthetic_data.py ..................................................  [ 32%]
-tests/test_build_graph.py ....................                                  [ 65%]
-tests/test_retriever.py ................                                        [ 75%]
-...
-157 passed in 0.06s
-```
-
----
 
 ## Project Structure
 
