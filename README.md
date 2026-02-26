@@ -6,6 +6,9 @@ Answer clinical questions by traversing a medical knowledge graph of diseases, s
 > ⚠️ **Disclaimer:** This project is for educational and research purposes only.
 > It is NOT intended for real clinical decision-making. Always consult a licensed clinician.
 
+<img width="468" height="262" alt="image" src="https://github.com/user-attachments/assets/fd6d3ae5-3830-4dc1-869a-92c172a8f2d0" />
+<img width="468" height="262" alt="image" src="https://github.com/user-attachments/assets/db28c260-8def-4f7b-a32e-13f02bc6521d" />
+
 
 
 ## Architecture
